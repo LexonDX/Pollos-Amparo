@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+<body>
+    <body>
+        <div id="ContainerBotones">
+            <a href="./index.html"><img src="./img/botones/logo.png" id="logotipo"></a>
+            <a href="./login.html"><div class="botones"><img src="./img/botones/usuario.png" id="iconos">
+                <h2>Ingresar / Registrarse</h2>
+            </div></a>
+            <a href="./catalogo.html"><div class="botones"><img src="./img/botones/catalogo.png" id="iconos">
+                <h2>Catalogo</h2>
+            </div></a>
+            <div class="botones"><img src="./img/botones/carrito.png" id="iconos">
+                <h2>Carrito de compras</h2>
+            </div>
+            <a href="./locales.html"><div class="botones", ><img src="./img/botones/local.png" id="iconos">
+                <h2>Locales</h2>
+            </div></a>
+        </div>
+    </div>
+
+    <div id="Login">
+        <div id="container">
+            <div class="container">
+                <h2>Pollos Amparo</h2>
+                <form action="login.php" method="post">
+                    <div class="usuario">
+                        <p>
+                            <h1>Iniciar Sesion</h1>
+                            <input type="text" name="usuario" class="casilla" placeholder="Usuario" required="">
+                        </p>
+                    </div>
+                    <div class="contraseña">
+                        <p>
+                            <input type="password" name="password" class="casilla" placeholder="Contraseña" required="">
+                        </p>
+                    </div>
+                    <button type="submit" class="ingresar">Ingresar</button>
+                    <button type="submit" class="registrar"><a href="./registro.html" style="color: black; text-decoration: none;">Registrar</a></button>
+                    <button type="submit" class="olvidemicontraseña"><a href="./recuperarcontraseña.html" style="color: black; text-decoration: none;">Olvide mi contraseña</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="bannerInferior">
+        <div class="banner">
+            <h1>Bienvenido.</h1>
+            <h2>Pollos amparo es una empresa comprometida con la calidad y el sabor en cada uno de sus productos, con el objetivo de ofrecer pollo fresco y sabroso.</h2>
+            <img src="./img/Pollo.png" id="pollo">
+            <img src="./img/promo.jpg.png" class="promo">
+        </div>        
+    </div>
+
+</body>

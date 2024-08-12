@@ -1,0 +1,294 @@
+body{
+    background-color: #295264;
+}
+#ContainerPrincipal{
+    width: 98%;
+    height: 850PX;
+    margin: 10px;
+    background-color: #fad9a6;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#containerProductos{
+    float: right;
+    margin-top: 50px;
+    width: 1500px;
+}
+
+
+#containerProm{
+    float: left;
+    margin: 0px;
+    width: 250px;
+    margin-top: 45px;
+    margin-left: 40px;
+    min-height: 715px;
+    background-color: #142433;
+    border-radius: 10px;
+}
+
+.tarjeta{
+
+    float: left;
+    top: 150px;
+    width: 400px;
+    margin: 10px;
+    background-color: #bd2f28;
+    padding: 20px;
+    border-radius: 35px;
+
+}
+
+.tarjetaPromocion{
+    display: inline-block;
+    width: 290px;
+    min-height: 100px;
+    margin: 1px;
+    background-color: #bd2f28;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;  
+
+}
+
+#promocion {
+    display: inline-block;
+    width: 100%;
+    margin: 2px;
+    text-align: center;
+}
+
+#ContainerBotones{
+    width: 98%;
+    margin: auto;
+    background-color: #fad9a6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#logotipo{
+    padding: 10px;
+    position: left;
+    width: 200px;
+    height: 100px;
+
+}
+.botones{
+    position: relative;
+    border: black 1px solid;
+    display: inline-block;
+    width:  21%;
+    min-height: 100px;
+    margin: 2px;
+    text-align: center;
+    background-color: #bd2f28;
+    cursor: pointer;
+}
+
+
+#fotos{
+    width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+}
+
+h1{
+    color: #000;
+    margin: 5px;
+
+}
+    
+#promocion{
+    width: 240px;
+    min-height: 660px;
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#iconos{
+    float: left;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+
+h2{
+    float: left;
+    margin: 0px;
+    display: flex;
+    color: #fad9a6;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-family: 'merienda';
+    font-size: 22px;
+
+}
+h3 {
+
+        color: #000;
+        margin: 5px;
+        text-align: left;
+        font-family: merienda;
+        font-size: 50px;
+}
+
+
+#ContainerCalificacion{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 80%;
+    float: right;    
+    font-family: 'merienda';
+    text-align: left;
+}
+
+#ContainerCalificacion h2{
+    display: inline;
+    right: 20%;
+    top: 26%;
+    position: absolute;
+    margin: 0px;
+    color: #000;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'merienda';
+}
+
+#ContainerCalificacion h3{
+    display: inline;
+    right: 51%;
+    top: 26%;
+    position: absolute;
+    margin: 0px;
+    color: #000;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'merienda';
+}
+#ContainerCalificacion h6{
+    display: inline;
+    width: 300px;
+    right: 44%;
+    top: 30%;
+    position: absolute;
+    margin: 0px;
+    color: #000;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'merienda';
+}
+#producto{
+    float: left;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.target {   
+    display: inline-block;
+    width: 22%;
+    min-height: 180px;
+    background-color:#bd2f28;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+}
+
+
+.clasificacion{
+    position: absolute;
+    display: inline-block;
+    right: 16%;
+    top: 30%;
+    margin: 0px;
+    width: 20%;
+    font-size: 50px;
+}
+#form {
+        width: 100px;
+        margin: 0 auto;
+        height: 25px;
+    }
+    
+#form p {
+        text-align: center;
+    }
+    
+#form label {
+        font-size: 1000px;
+    }
+    
+input[type="radio"] {
+        display: none;
+    }
+label {
+        color: grey;
+    }
+    
+.clasificacion {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+    }  
+label:hover,
+label:hover ~ label {
+        color: orange;
+}
+    
+input[type="radio"]:checked ~ label {
+    color: orange;
+}
+
+#ContainerComentarios{
+    width: 80%;
+    text-align: left;
+    float: right;
+}
+
+#ContainerComentarios h1{
+    left: 100px;
+    font-family: 'merienda';
+}
+
+
+.clasificacion2{
+    font-size: 50px;
+    margin: 0%;
+}
+
+#comentarios{
+    width: 45%;
+    min-height: 200px;
+    border-radius: 10px;
+    border: #000 solid 1px;
+    float: left;
+    display: inline;
+}
+
+.comentarios, ::placeholder{
+    font-family: 'merienda';
+
+}
+
+#opiniones{
+    width: 40%;
+    min-height: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: #000 solid 1px;
+    float: left;
+    display: inline;
+}
+
+#ContainerComentarios h2{
+    position: absolute;
+    color: #000;
+    right: 36%;
+    bottom: 41%;
+}

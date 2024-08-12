@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/enviarpedidos.css">
+</head>
+<body>
+    <div id="ContainerBotones">
+        <img src="./img/botones/logo.png" id="logotipo">
+        <div class="botones"><img src="./img/botones/usuario.png" id="iconos">
+            <h2>Ingresar / Registrarse</h2>
+        </div>
+        <div class="botones"><img src="./img/botones/catalogo.png" id="iconos">
+            <h2>Catalogo</h2>
+        </div>
+        <div class="botones"><img src="./img/botones/carrito.png" id="iconos">
+            <h2>Carrito de compras</h2>
+        </div>
+        <div class="botones"><img src="./img/botones/local.png" id="iconos">
+            <h2>Locales</h2>
+        </div>
+    </div>
+
+    <div id="ContainerPrincipal">
+        <div id="containerProm">
+            <img src="./img/promocion.png" id="promocion" alt="promocion">
+        </div>
+        <h1>Enviar pedidos</h1>
+        <form action="/submit" method="post">
+            <label for="lang">Departamento</label>
+            <select id="casillaSeleccion" name="dept" required>
+                <option value="" disabled selected>Seleccione su departamento</option>
+                <option value="ant">Antioquia</option>
+                <option value="bol">Bolívar</option>
+                <option value="cun">Cundinamarca</option>
+                <option value="mag">Magdalena</option>
+                <option value="atl">Atlántico</option>
+                <option value="ris">Risaralda</option>
+            </select>
+            <br>
+            <label for="lang">Ciudad</label>
+            <select id="casillaSeleccion" name="ciudad" required>
+                <option value="" hidden>Seleccione su ciudad</option>
+                <option value="med">Medellín</option>
+                <option value="car">Cartagena</option>
+                <option value="bog">Bogotá</option>
+                <option value="san">Santa Marta</option>
+                <option value="bar">Barranquilla</option>
+                <option value="per">Pereira</option>
+            </select>
+            <br>
+            <label for="lang">Barrio</label>
+            <input type="text" id="casillaLarga" name="bar" placeholder="Ingrese su barrio" required>
+            <br>
+            <form>
+                <label for="lang">Nombres</label>
+                <input type="text" id="casillas" name="nombre" placeholder="nombres">
+                <p>Apellidos</p>
+                <input type="text" id="casillaCorta" name="apellido" placeholder="apellidos">
+            </form>
+                <label for="lang">Direccion</label>
+                <input type="text" id="casillaLarga" name="dir" placeholder="Ingrese su Direccion" required>
+                <br>
+            <form>
+                <label for="lang">Pedido</label>
+                <input type="text" id="casillas" text="pedido" placeholder="Ingresar">
+                <label for="lang"> ¿Aplica descuento?</label>
+                <select id="casillaSeleccionD" text="desc" required>
+                    <option value="" disabled selected>Seleccionar</option>
+                    <option value="aplica">Si aplica</option>
+                    <option value="noaplica">No aplica</option>
+                </select>
+            </form>
+            <button type="reset" id="botonCancelar">Cancelar</button>
+            <button type="submit" id="botonEnviar">Enviar</button>  
+            
+        </form>
+    </div>  
+</body>
+</html> 

@@ -1,0 +1,243 @@
+body{
+    background-color: #295264;
+}
+#ContainerBotones{
+    position: relative;
+    width: 98%;
+    margin: auto;
+    background-color: #fad9a6;
+    padding: 10px;
+    border-radius: 10px;
+}
+#ContainerBotones h1{
+    font-family: 'Merienda';
+    font-size: 35px;
+    display: inline;
+}
+
+#logotipo{
+    padding: 10px;
+    position: left;
+    width: 200px;
+    height: 100px;
+
+}
+
+::placeholder{
+    color: #295264;
+    font-family: 'merienda';
+}
+
+
+.botones{
+    position: relative;
+    border: black 1px solid;
+    display: inline-block;
+    width:  21%;
+    min-height: 100px;
+    margin: 2px;
+    text-align: center;
+    background-color:#bd2f28;
+    cursor: pointer;
+}
+
+#iconos{
+    float: left;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+.botones h2{
+    color: #fad9a6;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-family: 'Merienda';
+    font-size: 22px;
+    
+}
+
+#ContainerBotones h2{
+    float: left;
+    color: #fad9a6;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-family: 'Merienda';
+    font-size: 22px;
+    
+}
+
+#Login{
+    position: relative;
+    width: 98%;
+    
+    margin: 10px;
+    background-color: #fad9a6;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bannerInferior{
+    min-height: 264px;
+    float: left;
+    position: absolute;
+    height: 25%;
+    margin-left: 17px;
+    margin-right: 17px;
+    border-radius: 10px;
+    bottom: 20px;
+    left: 0px;
+    background-color: #89373d;
+}
+
+
+#container{
+    width: 400px;
+    height: 305px;
+    display: flex;
+    background-color: #142433;
+    border: 2px solid;
+    border-color: #000000;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;  
+    margin-bottom: 40px;
+}
+
+.container{
+    background-color: #295264;
+    border-color: #ff0000;
+    border-radius: 10px;  
+}
+
+.container h3{
+    font-family: 'Merienda';
+    font-size: 20px;
+    left: 0;
+    margin-top: 10px;
+}
+
+.container h2{
+    font-family: 'Merienda';
+    font-size: 25px;
+    -webkit-text-stroke: 1px #142433;
+    text-align: center;
+    margin-top: 10px;
+
+}
+#container h1{
+    font-family: 'Merienda';
+    -webkit-text-stroke: 1px rgb(0, 0, 0);;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+.promo{
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    left: 4%;
+    width: 15%;
+    top: 1%;
+
+}
+
+
+
+.promo2{
+    position: absolute;
+    bottom: 0;
+    right: 34%;
+    top: 7%;
+    width: 24%;
+
+}
+
+form{
+    width: 379px;
+    height: 209px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    background-color: #477a90;
+}
+
+.casilla{
+    font-family: 'Merienda';
+    border-color: #000000;
+    -webkit-text-stroke: 1px #142433;
+    background-color: #a1afb5;
+    border-radius: 10px;
+    height: 25px;
+    width: 172px;
+}
+
+
+
+.ingresar{
+    width: 23%;
+    font-family: 'Merienda';
+    border-color: #000000;
+    background-color: #a1afb5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.registrar{
+    cursor: pointer;
+    font-family: 'Merienda';
+    width: 23%;
+    background-color: #a1afb5;
+    border-color: #000000;
+    border-radius: 5px;
+}
+.olvidemicontraseña{
+    cursor: pointer;
+    font-family: 'Merienda';
+    border-color: #000000;
+    background-color: #a1afb5;
+    border-radius: 5px;
+}
+
+.bannerInferior h1{
+    font-family: 'Merienda';
+    font-size: 35px;
+    -webkit-text-stroke: 1px #000000;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bannerInferior h2{
+    font-family: 'Merienda';
+    font-size: 30px;
+    -webkit-text-stroke: 1px #000000;
+    color:#000000;
+    text-align: center;
+    margin-top: -22px;
+    width: 57%;
+    margin-left: 21%;
+}
+
+#pollo{
+    position: fixed;
+    width: 12%;
+    right: 6% ;
+    bottom: 3%;
+    border-radius: 10px;
+}
+
+

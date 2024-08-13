@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/carro.css">
+</head>
+<body>
+    <div id="ContainerBotones">
+        <a href="./index.html"><img src="./img/botones/logo.png" id="logotipo"></a>
+        <a href="./login.html"><div class="botones"><img src="./img/botones/usuario.png" id="iconos">
+            <h2>Ingresar / Registrarse</h2>
+        </div></a>
+        <a href="./catalogo.html"><div class="botones"><img src="./img/botones/catalogo.png" id="iconos">
+            <h2>Catalogo</h2>
+        </div></a>
+        <a href="./carro.html"><div class="botones"><img src="./img/botones/carrito.png" id="iconos">
+            <h2>Carrito de compras</h2>
+        </div></a>
+        <a href="./locales.html"><div class="botones", ><img src="./img/botones/local.png" id="iconos">
+            <h2>Locales</h2>
+        </div></a>
+    </div>
+
+    <div id="containerPrincipal">
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+            <div class="contador">
+                <div class="target"><img src="./img/producto.jpg" alt="producto" class="producto"></div>
+                <button class="decrementar">-</button>
+                <span class="valor">0</span>
+                <button class="incrementar">+</button>
+            </div>
+
+        </div>
+<script>
+        document.querySelectorAll('.contador').forEach(contador => {
+            const valor = contador.querySelector('.valor');
+            const decrementar = contador.querySelector('.decrementar');
+            const incrementar = contador.querySelector('.incrementar');
+    
+            decrementar.addEventListener('click', () => {
+                let numero = parseInt(valor.textContent);
+                if (numero > 0) {
+                    valor.textContent = numero - 1;
+                }
+            });
+    
+            incrementar.addEventListener('click', () => {
+                let numero = parseInt(valor.textContent);
+                valor.textContent = numero + 1;
+            });
+        });
+</script>
+    </div>
+    
+</body>
+</html>

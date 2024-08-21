@@ -185,7 +185,8 @@ form{
 
 #casillaSeleccionArriba1{
     width: 250%;
-    height: 40%;
+    height: 64%;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -194,7 +195,8 @@ form{
 
 #casillaSeleccionArriba2{
     width: 255%;
-    height: 40%;
+    height: 64%;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -204,7 +206,8 @@ form{
 
 #casillaSeleccionAbajo1{
     width: 226%;
-    height: 40%;
+    height: 64%;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -213,7 +216,8 @@ form{
 
 #casillaSeleccionAbajo2{
     width: 155%;
-    height: 40%;
+    height: 64%;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -224,7 +228,8 @@ form{
 
 #cajaCodigo{
     width: 332%;
-    height: 40%;
+    height: 64%;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -239,7 +244,8 @@ h1{
 
 #casillaDatos{
     width: 208%;
-    height: 40%;
+    height: 64%;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -248,7 +254,9 @@ h1{
 
 #casillaDireccion{
     width: 73%;
-    height: 40%;
+    height: 49%;
+    margin-bottom: 20px;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -262,7 +270,8 @@ h1{
 
 #casillaPedido{
     width: 73%;
-    height: 40%;
+    height: 64%;
+    background-color: #a1afb5;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;

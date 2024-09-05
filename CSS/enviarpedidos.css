@@ -92,7 +92,8 @@ body{
     position: relative;
     border: black 1px solid;
     display: inline-block;
-    width:  21%;
+    min-width:  385px;
+    min-height: 100px;
     margin: 2px;
     text-align: center;
     background-color: #bd2f28;

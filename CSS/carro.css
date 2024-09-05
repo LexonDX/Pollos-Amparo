@@ -88,6 +88,9 @@ h1{
     border-radius:10px;
 }
 .contador {
+    position: relative;
+    width: 24%;
+    top: -37px;
     display: inline-flex;
     text-align: center;
     align-items: center;
@@ -97,7 +100,21 @@ h1{
 .incrementar, .decrementar {
     display: inline-flex;
     font-size: 20px;
+    border-radius: 10px;
     padding: 0px 9px;
     cursor: pointer;
     align-items: center;
+}
+
+#botonComprar{
+    position: relative;
+    top: -52px;
+    left: 92%;
+    width: 7%;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #bd2f28;
+    color: #fad9a6;
+    font-size: 1em;
 }

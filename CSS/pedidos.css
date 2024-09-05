@@ -3,7 +3,7 @@ body{
 }
 #ContainerPrincipal{
     width: 98%;
-    height: 850PX;
+    height: 80%;
     margin: 10px;
     background-color: #fad9a6;
     padding: 10px;
@@ -185,8 +185,7 @@ form{
 
 #casillaSeleccionArriba1{
     width: 250%;
-    height: 64%;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -195,8 +194,7 @@ form{
 
 #casillaSeleccionArriba2{
     width: 255%;
-    height: 64%;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -206,8 +204,7 @@ form{
 
 #casillaSeleccionAbajo1{
     width: 226%;
-    height: 64%;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -216,8 +213,7 @@ form{
 
 #casillaSeleccionAbajo2{
     width: 155%;
-    height: 64%;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -228,8 +224,7 @@ form{
 
 #cajaCodigo{
     width: 332%;
-    height: 64%;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -244,8 +239,7 @@ h1{
 
 #casillaDatos{
     width: 208%;
-    height: 64%;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -254,9 +248,7 @@ h1{
 
 #casillaDireccion{
     width: 73%;
-    height: 49%;
-    margin-bottom: 20px;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -270,8 +262,7 @@ h1{
 
 #casillaPedido{
     width: 73%;
-    height: 64%;
-    background-color: #a1afb5;
+    height: 40%;
     font-family: 'Merienda Regular';
     position: relative;
     border: 2px solid;
@@ -310,7 +301,7 @@ h1{
     align-items: center;
     display: flex;
     bottom: 89%;
-    left: 20%;
+    left: 4%;
     border-radius: 10px;
     justify-content: center;
 }

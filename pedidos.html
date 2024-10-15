@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/pedidos.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
     <title>Pedidos</title>
 </head>
 <body>
@@ -27,94 +27,95 @@
     <div id="containerProm">
         <img src="./img/promocion.png" id="promocion" alt="promocion">
     </div>
-        <form>
-            <h1>Seleccione sus productos</h1>
-            <div class="seleccionArriba">
-                <div>
-                    <h1>Bebidas</h1>
-                    <select id="casillaSeleccionArriba1" name="bebidas">
-                        <option value="EscojaUnaBebida" hidden>Escoja una bebida</option>
-                        <option value="Coca Cola">Coca Cola</option>
-                        <option value="Fanta">Fanta</option>
-                        <option value="Pepsi">Pepsi</option>
-                    </select>
-                </div>
-        
-                <div>
-                    <h1>Salsas</h1>
-                    <select id="casillaSeleccionArriba2" name="salsas">
-                        <option value="EscojaUnaBebida" hidden>Escoja una salsa</option>
-                        <option value="Coca Cola">Aji</option>
-                        <option value="Fanta">Tomate</option>
-                        <option value="Pepsi">Mayonesa</option>
-                    </select>
-                </div>
+        <div class="containerDatosP">
+            <div class="contenedorProducto">
+                <img src="./img/producto.jpg" alt="imagenProducto" class="imagenProducto">
             </div>
-
-            <div class="seleccionAbajo">
-                <div>
-                    <h1>Extras</h1>
-                    <select id="casillaSeleccionAbajo1" name="Extras">
-                        <option value="EscojaUnaBebida" hidden>Escoja un extra</option>
-                        <option value="Coca Cola">Papas a la francesa</option>
-                        <option value="Fanta">Papa Asada</option>
-                        <option value="Pepsi">Sopa de menudencia</option>
-                    </select>
-                </div>
-
-                <div>
-                    <h1>Excluir</h1>
-                    <select id="casillaSeleccionAbajo2" name="Excluir">
-                        <option value="EscojaUnaBebida" hidden>Excluya el producto que desee</option>
-                        <option value="Coca Cola">x</option>
-                        <option value="Fanta">x</option>
-                        <option value="Pepsi">x</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="cajaCodigo">
-                <div>
-                    <h1>Codigo de descuento</h1>
-                    <input type="number" name="codigo" id="cajaCodigo" placeholder="Codigo de descuento">
-                </div>
-            </div>
-
-            <h1>Datos</h1>
-            <div class="contenedorDatos">
-                <div>
-                    <h1 for="nombre">Nombres</h1>
-                    <input type="text" id="casillaDatos" name="nombre" required placeholder="Nombres">
-                </div>
-
-                <div>
-                    <h1 for="nombre">Telefono</h1>
-                    <input type="number" id="casillaDatos" name="telefono" required placeholder="Telefono">
-                </div>
-
-            </div>
-
-            <div class="contenedorDatos2">
-                <div>
-                    <h1 for="direccion">Dirección</h1>
-                    <input type="text" id="casillaDireccion" name="direccion" required placeholder="Dirección">
-                </div>
-                <div>
-                    <h1 for="comentarios">Pedido</h1>
-                    <input type="text" id="casillaPedido" name="comentarios" rows="4" placeholder="Pedido"></input>
-                </div>
-            </div>
+            <form>
+                <h1>Seleccione sus productos</h1>
+                <div class="seleccionArriba">
+                    <div>
+                        <h1>Bebidas</h1>
+                        <select id="casillaSeleccionArriba1Pedido" name="bebidas">
+                            <option value="EscojaUnaBebida" hidden>Escoja una bebida</option>
+                            <option value="Coca Cola">Coca Cola</option>
+                            <option value="Fanta">Fanta</option>
+                            <option value="Pepsi">Pepsi</option>
+                        </select>
+                    </div>
             
-            <div class="cajaBotones">
-                <button type="submit" value="cancelar" class="botonCancelar">Cancelar</button>
-                <button type="submit" value="confirmar" class="botonConfirmar">Confirmar</button>
+                    <div>
+                        <h1>Salsas</h1>
+                        <select id="casillaSeleccionArriba2Pedido" name="salsas">
+                            <option value="EscojaUnaBebida" hidden>Escoja una salsa</option>
+                            <option value="Coca Cola">Aji</option>
+                            <option value="Fanta">Tomate</option>
+                            <option value="Pepsi">Mayonesa</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="seleccionAbajo">
+                    <div>
+                        <h1>Extras</h1>
+                        <select id="casillaSeleccionAbajo1Pedido" name="Extras">
+                            <option value="EscojaUnaBebida" hidden>Escoja un extra</option>
+                            <option value="Coca Cola">Papas a la francesa</option>
+                            <option value="Fanta">Papa Asada</option>
+                            <option value="Pepsi">Sopa de menudencia</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <h1>Excluir</h1>
+                        <select id="casillaSeleccionAbajo2Pedido" name="Excluir">
+                            <option value="EscojaUnaBebida" hidden>Excluya el producto que desee</option>
+                            <option value="Coca Cola">x</option>
+                            <option value="Fanta">x</option>
+                            <option value="Pepsi">x</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="cajaCodigo">
+                    <div>
+                        <h1>Codigo de descuento</h1>
+                        <input type="number" name="codigo" id="cajaCodigo" placeholder="Codigo de descuento">
+                    </div>
+                </div>
+
+                <h1>Datos</h1>
+                <div class="contenedorDatos">
+                    <div>
+                        <h1 for="nombre">Nombres</h1>
+                        <input type="text" id="casillaDatos" name="nombre" required placeholder="Nombres">
+                    </div>
+
+                    <div>
+                        <h1 for="nombre">Telefono</h1>
+                        <input type="number" id="casillaDatos" name="telefono" required placeholder="Telefono">
+                    </div>
+
+                </div>
+
+                <div class="contenedorDatos2">
+                    <div>
+                        <h1 for="direccion">Dirección</h1>
+                        <input type="text" id="casillaDireccionPedido" name="direccion" required placeholder="Dirección">
+                    </div>
+                    <div>
+                        <h1 for="comentarios">Pedido</h1>
+                        <input type="text" id="casillaPedido" name="comentarios" rows="4" placeholder="Pedido"></input>
+                    </div>
+                </div>
+                
+                <div class="cajaBotones">
+                    <button type="submit" value="cancelar" class="botonCancelar">Cancelar</button>
+                    <button type="submit" value="confirmar" class="botonConfirmar">Confirmar</button>
+                </div>
+
+            </form>
             </div>
-
-        </form>
-
-        <div class="contenedorProducto">
-            <img src="./img/producto.jpg" alt="imagenProducto" class="imagenProducto">
         </div>
-
 </body>
 </html>

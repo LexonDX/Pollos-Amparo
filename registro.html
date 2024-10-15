@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="./CSS/registros.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
 </head>
 <body>
     <body>
@@ -30,18 +30,17 @@
             <img src="./img/promocion.png" id="promocion" alt="promocion">
         </div>
         <div id="registrarse">
-            <div class="registro">
                 <h1>Registrarse</h1>
                 <form action="registro.php" method="POST">
-                    <input type="text" name="nombre" id="casillas" placeholder="Nombre">
-                    <input type="text" name="apellido" id="casillas" placeholder="Apellido">
-                    <input type="tel" name="telefono" id="casillas" placeholder="Telefono">
-                    <input type="tel" name="telefonoFijo" id="casillas" placeholder="Telefono fijo (opcional)">
-                    <input type="email" name="correo" id="casillas" placeholder="Correo">
-                    <input type="password" name="contraseña" id="casillas" placeholder="Contraseña">
+                    <input type="text" name="nombre" id="casillasRegistro" placeholder="Nombre">
+                    <input type="text" name="apellido" id="casillasRegistro" placeholder="Apellido">
+                    <input type="tel" name="telefono" id="casillasRegistro" placeholder="Telefono">
+                    <input type="tel" name="telefonoFijo" id="casillasRegistro" placeholder="Telefono fijo (opcional)">
+                    <input type="email" name="correo" id="casillasRegistro" placeholder="Correo">
+                    <input type="password" name="contraseña" id="casillasRegistro" placeholder="Contraseña">
                     <h1>Direccion:</h1>
                     <h4>Ciudad</h4>
-                    <select name="Ciudad" id="casillaSeleccion">
+                    <select name="Ciudad" id="casillaSeleccionRegistro">
                         <option value="Seleccionar">- Seleccionar -</option>
                         <option value="Bogotá">Bogotá</option>
                         <option value="Medellín">Medellín</option>
@@ -54,7 +53,7 @@
                         <option value="Bucaramanga">Bucaramanga</option>
                     </select>
                     <h4>Tipo de via</h4>
-                    <select name="Ciudad" id="casillaSeleccionVia">
+                    <select name="Ciudad" id="casillaSeleccionViaRegistro">
                         <option value="Seleccionar">- Seleccionar -</option>
                         <option value="Anillo">Anillo</option>
                         <option value="Autopista">Autopista</option>
@@ -68,29 +67,29 @@
                         <option value="Transversal">Transversal</option>
                         <option value="Zona">Zona</option>
                     </select>
-                    <input type="text" id="casillaDireccion">
+                    <input type="text" id="casillaDireccionRegistro">
                     <label for="lang">#</label>
-                    <input type="text" id="casillaDireccion">
+                    <input type="text" id="casillaDireccionRegistro">
                     <label for="lang">-</label>
-                    <input type="text" id="casillaDireccion">
+                    <input type="text" id="casillaDireccionRegistro">
                     <h4>Tipo de Inmueble</h4>
-                    <select name="Direccion" id="casillaSeleccionD">
+                    <select name="Direccion" id="casillaSeleccionDRegistro">
                         <option value="Seleccionar">- Seleccionar -</option>
                         <option value="Apartamento">Apartamento</option>
                         <option value="Casa">Casa</option>
                         <option value="Edificio">Edificio</option>
                         <option value="Hotel">Hotel</option>
                     </select>
-                    <input type="text" id="casillaDireccion2">
+                    <input type="text" id="casillaDireccion2Registro">
                     <h4>Tipo de Inmueble</h4>
-                    <select name="Direccion" id="casillaSeleccionD">
+                    <select name="Direccion" id="casillaSeleccionDRegistro">
                         <option value="Complemento">- Complemento -</option>
                         <option value="Manzana">Manzana</option>
                         <option value="Bloque">Bloque</option>
                         <option value="Zona">Zona</option>
                         <option value="Habitación">Habitación</option>
                     </select>
-                    <input type="text" id="casillaDireccion2">
+                    <input type="text" id="casillaDireccion2Registro">
 
                     <button type="submit" value="Cancelar" id="botonCancelar"><a href="./login.html" style="text-decoration: none; color: black;">Cancelar</a></button>
                     <input type="submit" value="Registrarse" id="botonRegistro">
